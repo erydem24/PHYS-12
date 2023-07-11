@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Class 3</title>
+  <title>Class 1</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -48,6 +48,10 @@
       line-height: 1.5;
     }
     
+    .post-image {
+      margin-bottom: 20px;
+    }
+    
     .post-tags {
       margin-top: 10px;
     }
@@ -92,15 +96,38 @@
   </style>
 </head>
 <body>
-  <h1>Lecture 1: Introduction and Documentation</h1>
+  <header>
+    <h1>Week 1: Introduction & Documentation</h1>
+  </header>
   
-  <p>
-    In our first class of the course Introduction to Digital Fabrication, we started off with introducing ourselves, our backgrounds, and our motivation to take this course. Then we went over the course syllabus and talked about what our duties and responsibilites are. Mr. Melenbrink talked about how can we do good in our projects. Then we brainstormed about our final project ideas and talked to our peers about ideas. After getting assigned to our lab section, we ended our day with working on our 1st assignment of opening a website for our final project, briefly going over HTML and CSS while doing so.
-  </p>
-  
-  <h2>Assignment</h2>
+  <main>
+    <div class="post">
+      <h2 class="post-title">Overview</h2>
+      <div class="post-image">
+        <img src="./pressfitfusion.png" alt="Image 1">
+      </div>
+      <div class="post-content">
+        <p>In our first class of the course Introduction to Digital Fabrication, we started off with introducing ourselves, our backgrounds, and our motivation to take this course. Then we went over the course syllabus and talked about what our duties and responsibilites are. Mr. Melenbrink talked about how can we do good in our projects. Then we brainstormed about our final project ideas and talked to our peers about ideas. After getting assigned to our lab section, we ended our day with working on our 1st assignment of opening a website for our final project, briefly going over HTML and CSS while doing so.</p>
 
-  <p>
-  Our first assignment was to open up a website from GitHub that would act as a journal tracking our development. To do this, we went over a tutorial about how to open up a GitHub repository, then we downloaded Sublime Text and used it to create and customize our own website with HTML and CSS. I am a beginner in coding so these steps were quite the challenge for me. But I'm staritng to figure out day by day how to code.  </p>
-</body>
-</html>
+      <h2>Assignment</h2>
+
+        <p>our first assignment was to open up a website from GitHub that would act as a journal tracking our development. To do this, we went over a tutorial about how to open up a GitHub repository, then we downloaded Sublime Text and used it to create and customize our own website with HTML and CSS. I am a beginner in coding so these steps were quite the challenge for me. But I'm staritng to figure out day by day how to code.
+        <br>
+
+      <img src="./pressfit1.png" alt="Image 2" align = middle width >
+
+        <p> In creating my press-fit construction kit, I wanted to do something simple but with a flair. I was going to choose triangles, but I saw most people using triangles, so I passed on triangles. Then I thought about pentagons and hexagons, but given my relative incompetence and beginerness, I thought it would be quite the work. So I chose squares. But my squares were not just squares. I added a little flair by smoothening the edges and giving it a somewhat circular shape. Also I went for bigger pieces, just to be more different.
+
+        <br>
+
+        <p> I started off by sketching a square with a 50 millimeter side length. Then I offsetted the sketch by 10 millimeters to the outside for the connection slots. After that I drew construction lines from the midpoints of the sides, then offsetting those lines by a parameter i defined as "thickness/2 - kerf". This would allow me to create slots that fit perfectly to each other, also putting the kerf into consideration. Kerf is how much material the laser burns when cutting. So keeping kerf in mind is important. 
+        </p>
+
+          <br>
+
+        <p> The parameters that I defined are now "thickness = 3.80", "kerf = 0.20" and "width = thickness/2 - kerf". Then I completed my sketching and started to add the 3rd dimension. I started the process by extruding my sketch by 3.8 millimeters, which is the same as the width of the cardboard. Then I filed the edges of the connection slots by 2 millimeters to get that smooth connection in. I then filed my squares with a radius of 15 millimeters. </p>
+
+          <br>
+
+        <P> Now I was ready to laser cut my shapes. I started with making a 2D projection of my 3D shape. Then I imported the file as DXF to the laser cutter. I used Rhino 7 to print my shapes since it seemed much easier and shorter. Then I started to laser cut my shapes. After a while
+
