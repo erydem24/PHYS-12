@@ -113,7 +113,7 @@
       <p>For my final project, I will create a mechanism that would help basketball players track their makes and misses. This mechanism will consist of accelerometers around the basketball rim gathering data, a photoresistor (light sensor), and an application connected to it.         
       </p>
 
-      <img src=./rim1.jpeg vertical-align=middle width="50%">
+      <img src=./rim1.jpeg vertical-align=middle width="50%" class="center">
 
       <p>
         I will work with Burak Kırali for this project. We will install some accelerometers (4 to be exact) around the rim with increments of 90 degrees. These accelerometers will monitor the impulse that the ball gives to the rim, and depending on the activation rate of these accelerometers, we will develop an algorithm that will give the approximate position that the ball hit the rim. We will also use a light sensor to detect whether the ball has entered the rim or not.
@@ -121,19 +121,19 @@
 
     <br>
 
-    <img src=./accelerometer1.png vertical-align=middle width="50%">
+    <img src=./accelerometer1.png vertical-align=middle width="50%" class="center">
 
     <p>
       The rationale behind the setup is that as a basketball player, a "swish" (the ball not hitting the rim) is the most ideal make you can have since it requires the most precision and accuracy. Tracking the makes and misses will help improve the players' shooting abilities. ıt will give an insight to possible adjustments the players can do with their shooting styles. For example if you make 20 shots and miss 20 shots, and while missing these 20 shots, you hit the back rim 15 times and the front rim 5 times. This would imply that the player tends to overshoot and should adjust his/her shot by shooting with adding more arc. The same is valid with left and right rims. For example, a right handed shooter hits the left side of the rime more than the right side of the rim. This implies that the shooter has to tuck in their elbow to get a better shot. 
     </p>
 
-    <img src=./form.jpeg vertical-align=middle width="50%">
+    <img src=./form.jpeg vertical-align=middle width="50%" class="center">
 
     <p>
       The light sensor comes into play when tracking the amount of swishes. If the ball didn't hit the rim but went in, meaning that the photoresistor made a reading but the accelerometers didn't, this means the player "swished" the ball. Sİnce we are aiming to increase the number of swishes, the tracking of swishes is crucial.
     </p>
 
-    <img src=./light1.jpeg vertical-align=middle width="50%">
+    <img src=./light1.jpeg vertical-align=middle width="50%" class="center">
 
     <p>
       Then we will transmit the data gathered to an application via the XIAO ESP32C3 microcontroller. The relative small size and the amount of analog inputs of the board will help us.
@@ -142,7 +142,7 @@
     <br>
 
     <p>
-      These accelerometers will be inside a tube-like structure that will protect the sensors. We plan to do it as a press-fir so that it would be easy to mount to the rim. 
+      These accelerometers will be inside a tube-like structure that will protect the sensors. We plan to do it as a press-fit so that it would be easy to mount to the rim. We will try to use as little numbers of cables possible.
     </p>
 
 

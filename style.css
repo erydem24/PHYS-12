@@ -80,7 +80,16 @@ body {
     
     .sidebar li {
       margin-bottom: 5px;
+
+
     }
+
+    .center  {
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
     
     footer {
       background-color: #333;
