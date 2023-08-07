@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Proposal</title>
+  <title>Final Project</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -97,7 +97,7 @@
 </head>
 <body>
   <header>
-    <h1>Final Project Proposal</h1>
+    <h1>Final Project </h1>
   </header>
   
   <main>
@@ -145,11 +145,37 @@
       These accelerometers will be inside a tube-like structure that will protect the sensors. We plan to do it as a press-fit so that it would be easy to mount to the rim. We will try to use as little numbers of cables possible.
     </p>
 
+    <br>
+
+    <p>
+      We first bought a basketball rim and assembled it. Then we tried to buy a basketball backboard so we could mount the rim to the backboard to get the sturdy connection. However the backboards were too expensive, so we improvised and made our own backboard from the thickest wood we could find and made our own backboard. We used ShopBot to cut holes through the thick wood, then mounted the system to Bobby's desk.
+    </p>
 
 
+    <img src="./mount.jpeg" vertical-align=middle width="30%" class="center">
 
+    <p>
+      Then we used 2 MPU-6050 and 2 LIS3DH accelerometers, placed them 90 degrees apart, and connected the system with wires to a bredboard and ESP32 on the back of the backboard.
+    </p>
 
+<img src="./hoop.jpeg" vertical-align=middle width="30%" class="center">
 
+  <p>
+    Finally we put 2 led lights on another bredboard, wrote the code and connected everything together. The system works by reading the values from the accelerometers and classifies them as "overshoot" or "undershoot". If the readings are bigger than a certain value but smaller than another certain value, the result is "undershoot", If the reading is bigger than the second value, the result is "overshoot".
+
+  </p>
+
+<br>
+
+<p>
+  There are loads of ways to improve the setup, such as using a distance sensor to locate the position of the ball rather than a motion sensor. Also our backboard was not as stable as it should be, so we could mount it to a wall. But overall the project was a success.
+</p>
+
+<br>
+
+<p>
+  <a href="https://www.youtube.com/watch?v=m5b8X15bbX0">Here is the final Project<a/>
+</p>
 
 
 
